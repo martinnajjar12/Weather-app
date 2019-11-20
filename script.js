@@ -312,13 +312,13 @@ checkBox.addEventListener('click', () => {
 // When the page is fully loaded, fetch weather data for the default city name
 // استدعاء الدالة الأساسية للحصول على معلومات الطقس عندما يتم تحميل جميع عناصر الصفحة
 document.addEventListener("DOMContentLoaded", function () {
+    unitChecker();
     // استدهاء الدالة الأساسية مع دالة رد
     loadWeatherData(function () {
         // show results card when finished
         resultCard.style.display = "block";
     });
     loadBackgroundImage();
-    unitChecker();
 });
 
 
