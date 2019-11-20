@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 // initial default city name
 // المدينة الافتراضية هي لندن
 let city = "London",
